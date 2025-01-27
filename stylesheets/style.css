@@ -1,0 +1,59 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0a1123;
+    padding: 1.2em;
+}
+
+.sidebar .sidebar-navigation{
+    background-color: #121212;
+    border-radius: 0.8em;
+    padding: 1.6em 0 0 1.6em;
+}
+
+
+.sidebar .sidebar-navigation .logo{
+    display: flex;
+    background-color: #4daacd;
+    border-radius: 0.8em;
+    padding: 1.6em 0 0 1.6em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sidebar .sidebar-navigation .logo img{
+    width: 14em;
+}
+
+.sidebar .sidebar-navigation .sidebar-upicons ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.sidebar .sidebar-navigation .sidebar-upicons li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0 2em 1em 2em;
+    font-size: 1.4rem;
+    
+}
+
+.sidebar .sidebar-navigation .sidebar-upicons li a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    padding: 1em 0;
+} 
