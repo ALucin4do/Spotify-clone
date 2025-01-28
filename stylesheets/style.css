@@ -12,48 +12,45 @@ body{
     left: 0;
     background-color: #0a1123;
     padding: 1.2em;
+    width: 300px;
 }
 
-.sidebar .sidebar-navigation{
+.sidebar .sidebar-search{
     background-color: #121212;
     border-radius: 0.8em;
-    padding: 1.6em 0 0 1.6em;
 }
 
 
-.sidebar .sidebar-navigation .logo{
+.sidebar .sidebar-search .logo{
     display: flex;
-    background-color: #4daacd;
+    /* background-color: ; */
     border-radius: 0.8em;
-    padding: 1.6em 0 0 1.6em;
-    justify-content: center;
-    align-items: center;
+    padding: 16px 0 0 16px;
 }
 
 
-.sidebar .sidebar-navigation .logo img{
-    width: 14em;
+.sidebar .sidebar-search .logo img{
+    width: 80px;
 }
 
-.sidebar .sidebar-navigation .sidebar-upicons ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
+/* .sidebar .sidebar-search nav{
+    padding: 1em 0em 1em 2em;
+} */
 
-.sidebar .sidebar-navigation .sidebar-upicons li {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding: 0 2em 1em 2em;
-    font-size: 1.4rem;
+.sidebar .sidebar-search nav ul {
+    padding: 0 20px 10px 16px;
+    margin: 10px 0 0 0;
     
 }
 
-.sidebar .sidebar-navigation .sidebar-upicons li a{
+.sidebar .sidebar-search nav ul li{
+    padding: 10px 0;
+}
+
+.sidebar .sidebar-search nav ul li a{
     text-decoration: none;
     color: #b3b3b3;
     font-family: "DM Sans", sans-serif;
     font-weight: 600;
-    padding: 1em 0;
+    font-size: 1.4em;
 } 
