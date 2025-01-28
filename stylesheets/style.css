@@ -137,3 +137,26 @@ body{
     margin: 12px 0 0 0;
     cursor: pointer;
 }
+
+.sidebar .sidebar-playlist .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .sidebar-playlist .cookies a{
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.sidebar .sidebar-playlist .language button{
+    background-color: transparent;
+    border: 1px solid #878787;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px;
+    margin: 8px;
+
+}
