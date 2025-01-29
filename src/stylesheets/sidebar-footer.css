@@ -1,19 +1,13 @@
-:root{
-    font-size: 62.5%;
-}
 
-body{
-    background-color: black;
-    box-sizing: border-box;
-}
 
 .sidebar{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #0a1123;
-    padding: 1.2em;
-    width: 300px;
+    padding: 1.2rem 2.4rem 1.2rem 1.2rem;
+    box-sizing: border-box;
+    width: var(--sidebar-width);
+    /* margin: 0 15px 0 0; */
 }
 
 .sidebar .sidebar-search{
@@ -51,7 +45,7 @@ body{
 .sidebar .sidebar-search nav ul li a{
     text-decoration: none;
     color: #b3b3b3;
-    font-family: "DM Sans", sans-serif;
+    /* font-family: "DM Sans", sans-serif; */  /* REDUNDANTE */
     font-weight: 600;
     font-size: 1.4em;
 } 
@@ -113,8 +107,7 @@ body{
 .sidebar .sidebar-playlist .create-playlist .text{
     /* padding: 0 0 14px 0; */    /* até tinha esse padding no original mas pra mim fazia mais sentido sem. */
     color: white;
-    /* font-family: 'Montserrat',sans-serif */
-    font-family: "DM Sans", sans-serif;
+    /* font-family: "DM Sans", sans-serif; */   /* REDUNDANTE */ 
 }
 
 .sidebar .sidebar-playlist .create-playlist .title{
