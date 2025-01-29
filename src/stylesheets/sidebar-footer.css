@@ -162,5 +162,49 @@ body{
     font-weight: bold;
     padding: 8px;
     margin: 8px;
+}
 
+footer{
+    background-image: url(/src/assets/backgrounds/62de7abc-b672-4c94-a34e-811103ea6eb7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+footer .disclaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .disclaimer h4{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 0 0 10px 0; 
+}
+
+footer .disclaimer p{
+    color: wheat;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+footer .subscribe{
+    color: black;
+    background-color: whitesmoke;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
 }
