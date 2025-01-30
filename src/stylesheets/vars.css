@@ -1,8 +1,39 @@
 :root{
     --font-dm-sans: "DM Sans", sans-serif;
     --sidebar-width: 324px;
-    --chinese-black: #0a1123;
     --bg-icon: #131313;
-    --arrow-color: rgba(0,0,0,0.7)
+    --arrow-color: rgba(0,0,0,0.7);
+
+        /* original */
+    --background: black;
+    --elements: #121212;
+    --search-bar: #242424;
+    --buttons: whitesmoke;
+    --cards-bg: #121212;
+        /* campos de lavanda */
+    --cadet-grey: rgb(149,155,181);
+    --chinese-black: #0a1123;
+    --american-blue: #3a3e6c;
+    --ube:#8387c3;
+    --cool-grey:#8a8cac;
+        /* azuree dreams */
+    --chinese-black2: #0a111a;
+    --yinmn-blue: #294a8f;
+    --pale-cerulean: #9fb7e3;
+    --languid-lavander: #d8d0e7;
+    --ceil: #9295d0;
+        /* jardim de inverno */
+    --platinum: #eee2df;
+    --thistle: #dec1db;
+    --liberty: rgb(91,97,178);
+    --bleu-de-france: #2f80e4;
+    --little-boy-blue: #6da0e1;
+        /* horizonte invernal */
+    --eerie-black: #181a1e;
+    --deep-space-sparkle: #405c6f;
+    --cadet-grey2: #86a3b4;
+    --pewter-blue: #9aabba;
+    --brink-pink: #f75e74;
+
 }
 

@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: var(--background);
     box-sizing: border-box;
     font-family: var(--font-dm-sans);
 }
@@ -9,8 +9,7 @@ header{
     margin: 10px 10px 10px  var(--sidebar-width);
     padding: 16px;
     border-radius: 8px;
-    background-color: #121212;
-    /* width:max-content ; */
+    background-color: var(--elements);
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -23,7 +22,6 @@ header .arrow-button{
     justify-content: space-around;
     gap: 16px;
     align-items: center;
-    /* background-color: seagreen; */
 }
 
 header .arrow-button button{
@@ -44,7 +42,7 @@ header .search-bar{
     align-items: center;
     width: 36.4rem;
     height: 48px;
-    background-color: #242424;
+    background-color: var(--search-bar);
     border: 1px solid transparent;
     border-radius: 100px;
     padding: 4px 10px;
@@ -88,10 +86,11 @@ header .header-login .login{
     font-size: 1.6rem;
     font-weight: 700;
     border-radius: 100px;
+    background-color: var(--buttons);
 }
 
 main{
-    background-color: #121212;
+    background-color: var(--elements);
     margin: 10px 10px 10px  var(--sidebar-width);
 }
 
