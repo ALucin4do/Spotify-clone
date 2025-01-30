@@ -111,17 +111,26 @@ main h2{
     margin: 24px;
 }
 
-main .playlists-cards{
-    background-color: var(--cards-bg);
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+.offer-scroll-container{
+    margin: 24px;
+    overflow-y: auto;
+    max-height: 43vh;
 }
 
-main .playlists-cards .card{
+.playlist-cards{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+main .playlist-cards .card{
+    position: relative;
     width: 220px;
     height: 200px;
-    background-color: aqua;
     border-radius: 8px;
     overflow: hidden;
 }
+
