@@ -1,59 +1,65 @@
-@media (max-width: 1024px) {
-    .playlist-cards{
-        grid-template-columns: 1fr 1fr;
+@media screen and (max-width: 1280px) {
+     main .playlist-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+    header .header-login .subscribe {
+        font-size: 1rem !important;
+        padding: 1rem !important;
+        margin-right: 0.5rem !important;
     }
 }
 
 @media screen and (max-width: 1015px) {
-    .header__search {
-      /* display: none !important; */
+    header .search-bar {
       width: auto !important;
       display: none;
     }
   
-    /* .header__login .subscribe {
-      font-size: 12px !important;
-      padding: 10px !important;
-      margin-right: 5px !important;
-    } */
+
   
-    /* .offer__list-item {
+    main .playlist-cards {
       grid-template-columns: 1fr 1fr !important;
-    } */
+    }
   }
   
-  @media screen and (min-width: 1016px) and (max-width: 1140px) {
-    .header__search {
-      /* display: none !important; */
-      width: auto !important;
-      display: none;
+  
+@media screen and (max-width: 826px) {
+    :root{
+      font-size: 50%;
+      --sidebar-width: 30%;
     }
   
-    /* .offer__list-item {
-      grid-template-columns: 1fr 1fr 1fr !important;
-    } */
+
+    main .playlist-cards .cards {
+      width: 132px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    main .playlist-cards .cards img{
+      width: 70px;
+    }
+
+}
+
+@media screen and (max-width: 555px) {
+    :root{
+      font-size: 35%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+  header .header-login .login{
+    width: 50px;
+    height: 24px;
   }
-  
-  @media screen and (max-width: 375px) {
-    .playlist {
-      display: none;
-    }
-  
-    .playlist-container {
-      width: 100%; /* Ocupa toda a largura disponível */
-      height: auto; /* Altura automática, ajusta conforme o conteúdo */
-    }
-  
-    .sidebar {
-      width: 342px;
-    }
-  
-    .offer__list-item {
-      grid-template-columns: 1fr;
-    }
-  
-    .offer__scroll-container {
-      overflow-y: visible;
-    }
-  
+  main .playlist-cards{
+    grid-template-columns: 1fr !important;
   }
+  footer{
+    flex-direction: column;
+  }
+
+}

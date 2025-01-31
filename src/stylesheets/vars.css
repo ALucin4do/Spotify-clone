@@ -6,9 +6,8 @@
 
     --text-base-dark: #000;
     --text-base-light: #fff;
-    --text-sub: #a7a7a7;
+    --text-grey: #b3b3b3;
   
-    --bg-top-bar: #61616142;
     --grid-gap: 24px;
     --column-count: 5;
   
@@ -36,7 +35,7 @@
         /* original */
     --background: black;
     --elements: #121212;
-    --search-bar: #242424;
+    --search-bar: #61616142;
     --buttons: whitesmoke;
     --cards-bg: #121212;
         /* campos de lavanda */

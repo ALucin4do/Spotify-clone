@@ -34,7 +34,7 @@
 
 .sidebar .sidebar-search nav ul li a{
     text-decoration: none;
-    color: #b3b3b3;
+    color: var(--text-grey);
     font-weight: 600;
     font-size: 1.4em;
 } 
@@ -46,7 +46,7 @@
     align-items: start;
     background-color: var(--elements);
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: var(--text-grey);
     margin: 10px 0 0 0;
     font-size: 14px;
 }
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    color: #b3b3b3;
+    color: var(--text-grey);
 
 }
 
@@ -64,7 +64,7 @@
     font-size: 1.6rem;
     font-weight: 700;
     font-family: 'Montserrat',sans-serif;
-    padding: 20px 10px;
+    padding: 2rem 1rem;
 }
 
 .sidebar .sidebar-playlist .library .library-button{
@@ -87,25 +87,23 @@
     border-radius: 8px;
     font-weight: 400;
     font-size: 1.2rem;
-    color: #b3b3b3;
-    margin: 8px 0;
-    padding: 16px 20px;
+    color: var(--text-base-light);
+    margin: 0.8rem 0;
+    padding: 16px 2rem;
 
 }
 
-.sidebar .sidebar-playlist .create-playlist .text{
-    /* padding: 0 0 14px 0; */    /* até tinha esse padding no original mas pra mim fazia mais sentido sem. */
-    color: white;
-}
+
 
 .sidebar .sidebar-playlist .create-playlist .title{
     font-weight: 900;
     font-size: 1.6rem;
+    color: var(--text-grey);
 }
 
 .sidebar .sidebar-playlist .create-playlist button{
     background-color: var(--buttons);
-    color: black;
+    color: var(--text-base-dark);
     border-radius: 100px;
     display: flex;
     justify-content: center;
@@ -113,7 +111,7 @@
     font-weight: 700;
     font-family: 'Montserrat',sans-serif;
     border: none;
-    padding: 14px;
+    padding: 1.4rem;
     margin: 12px 0 0 0;
     cursor: pointer;
 }
@@ -123,7 +121,7 @@
 }
 
 .sidebar .sidebar-playlist .cookies a{
-    color: #b3b3b3;
+    color: var(--text-grey);
     font-weight: 500;
     text-decoration: none;
     font-size: 1.2rem;
@@ -137,11 +135,12 @@
     background-color: transparent;
     border: 1px solid #878787;
     border-radius: 100px;
-    color: white;
+    color: var(--text-base-light);
     cursor: pointer;
     font-weight: bold;
     padding: 8px;
     margin: 8px;
+    font-size: 1.4rem;
 }
 
 footer{
@@ -152,7 +151,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* padding: 15px 40px; */
+
 }
 
 footer img{
@@ -189,7 +188,7 @@ footer .subscribe{
     background-color: var(--buttons);
     font-size: 1.6rem;
     font-weight: bold;
-    padding: 14px 30px;
+    padding: 1.4rem 3rem;
     border: none;
     cursor: pointer;
     border-radius: 100px;
