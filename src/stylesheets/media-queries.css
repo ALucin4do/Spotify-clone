@@ -51,6 +51,9 @@
 }
 
 @media screen and (max-width: 520px) {
+  header {
+    flex-direction: column;
+  }
   header .header-login .login{
     width: 50px;
     height: 24px;
