@@ -49,6 +49,10 @@ header .search-bar{
     padding: 4px 10px;
 }
 
+header .search-bar img {
+    height: 40%;
+}
+
 header .search-bar:hover {
     border: 1px solid white;
 }
@@ -78,7 +82,7 @@ header .header-login button{
 }
 
 header .header-login .subscribe{
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
     font-weight: 700;
     color: var(--text-grey);
     background-color: transparent;
@@ -97,7 +101,7 @@ header .header-login .login{
     font-weight: 700;
     border-radius: 100px;
     background-color: var(--buttons);
-    padding: 0.1rem 0.6rem;
+    padding: 1px 6px;
 }
 
 head .header-login.login:hover {
@@ -128,7 +132,7 @@ main .session {
 }
   
 
-main .playlist-cards {
+main #playlist-cards {
     display: grid; 
     gap: 16px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -139,16 +143,16 @@ main .playlist-cards {
     background-color: var(--cards-bg);
 }
   
-main .playlist-cards::-webkit-scrollbar {
+main #playlist-cards::-webkit-scrollbar {
     width: 1px;
 }
   
-main .playlist-cards::-webkit-scrollbar-thumb {
+main #playlist-cards::-webkit-scrollbar-thumb {
     background-color: transparent;
 }
 
 
-main .playlist-cards .cards {
+main #playlist-cards .cards {
     position: relative; 
     width: 198px;
     height: 180px;
@@ -156,7 +160,7 @@ main .playlist-cards .cards {
     border-radius: 8px;
 }
   
-main .playlist-cards .cards span {
+main #playlist-cards .cards span {
     padding: 16px;
     position: absolute;
     color: var(--text-base-light);
@@ -164,67 +168,67 @@ main .playlist-cards .cards span {
     font-weight: 700;
 }  
   /* COLOR CARDS */
-main .playlist-cards #card1 {
+main #playlist-cards #card1 {
     background: var(--card1);
 }
 
-main .playlist-cards #card2 {
+main #playlist-cards #card2 {
     background: var(--card2);
 }
 
-main .playlist-cards #card3 {
+main #playlist-cards #card3 {
     background: var(--card3);
 }
 
-main .playlist-cards #card4{
+main #playlist-cards #card4{
     background: var(--card4);
 }
 
-main .playlist-cards #card5 {
+main #playlist-cards #card5 {
     background: var(--card5);
 }
 
-main .playlist-cards #card6 {
+main #playlist-cards #card6 {
     background: var(--card6);
 }
 
-main .playlist-cards #card7 {
+main #playlist-cards #card7 {
     background: var(--card7);
 }
 
-main .playlist-cards #card8 {
+main #playlist-cards #card8 {
     background: var(--card8)
 }
 
-main .playlist-cards #card9 {
+main #playlist-cards #card9 {
     background: var(--card9)
 }
 
-main .playlist-cards #card10 {
+main #playlist-cards #card10 {
     background: var(--card10)
 }
 
-main .playlist-cards #card11 {
+main #playlist-cards #card11 {
     background: var(--card11)
 }
 
-main .playlist-cards #card12 {
+main #playlist-cards #card12 {
     background:var(--card12)
 }
 
-main .playlist-cards #card13 {
+main #playlist-cards #card13 {
     background: var(--card13)
 }
 
-main .playlist-cards #card14 {
+main #playlist-cards #card14 {
     background: var(--card14);
 }
 
-main .playlist-cards #card15 {
+main #playlist-cards #card15 {
     background: var(--card15);
 }
 
-main .playlist-cards img {
+main #playlist-cards img {
     position:absolute;
     right: 0;
     bottom: 0;
